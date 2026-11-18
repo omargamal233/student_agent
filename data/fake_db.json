@@ -1,0 +1,6694 @@
+{
+  "meta": {
+    "as_of": "2026-11-18",
+    "note": "FAKE test data shaped like the Eng Hub schema (only the tables the Student agent reads)."
+  },
+  "departments": [
+    {
+      "dept_id": 1,
+      "name": "Computer Engineering and Automatic Control"
+    },
+    {
+      "dept_id": 2,
+      "name": "Electrical Power"
+    },
+    {
+      "dept_id": 3,
+      "name": "Electronics and Communications"
+    },
+    {
+      "dept_id": 4,
+      "name": "Mechanical Power"
+    },
+    {
+      "dept_id": 5,
+      "name": "Production"
+    },
+    {
+      "dept_id": 6,
+      "name": "Architectural"
+    },
+    {
+      "dept_id": 7,
+      "name": "Civil"
+    },
+    {
+      "dept_id": 8,
+      "name": "Physics and Mathematics"
+    }
+  ],
+  "students": [
+    {
+      "student_id": 1001,
+      "dept_id": 1,
+      "created_at": "2025-09-20"
+    },
+    {
+      "student_id": 1002,
+      "dept_id": 1,
+      "created_at": "2025-09-20"
+    },
+    {
+      "student_id": 1003,
+      "dept_id": 1,
+      "created_at": "2025-09-20"
+    },
+    {
+      "student_id": 1004,
+      "dept_id": 1,
+      "created_at": "2025-09-20"
+    },
+    {
+      "student_id": 1005,
+      "dept_id": 1,
+      "created_at": "2025-09-20"
+    },
+    {
+      "student_id": 1006,
+      "dept_id": 1,
+      "created_at": "2025-09-20"
+    }
+  ],
+  "accounts": [
+    {
+      "account_id": 1001,
+      "student_id": 1001,
+      "name": "Sara Hassan"
+    },
+    {
+      "account_id": 1002,
+      "student_id": 1002,
+      "name": "Omar Khaled"
+    },
+    {
+      "account_id": 1003,
+      "student_id": 1003,
+      "name": "Mona Adel"
+    },
+    {
+      "account_id": 1004,
+      "student_id": 1004,
+      "name": "Youssef Tarek"
+    },
+    {
+      "account_id": 1005,
+      "student_id": 1005,
+      "name": "Nour Samir"
+    },
+    {
+      "account_id": 1006,
+      "student_id": 1006,
+      "name": "Karim Mahmoud"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": 1,
+      "dept_id": null,
+      "name": "Scientific Thinking",
+      "type": "general",
+      "credit_hours": 2
+    },
+    {
+      "course_id": 2,
+      "dept_id": null,
+      "name": "Technical Report Writing",
+      "type": "general",
+      "credit_hours": 2
+    },
+    {
+      "course_id": 3,
+      "dept_id": 1,
+      "name": "Data Structures",
+      "type": "specialized",
+      "credit_hours": 3
+    },
+    {
+      "course_id": 4,
+      "dept_id": 1,
+      "name": "Databases",
+      "type": "specialized",
+      "credit_hours": 3
+    },
+    {
+      "course_id": 5,
+      "dept_id": 1,
+      "name": "Digital Logic Design",
+      "type": "specialized",
+      "credit_hours": 3
+    },
+    {
+      "course_id": 6,
+      "dept_id": 1,
+      "name": "Signals and Systems",
+      "type": "specialized",
+      "credit_hours": 3
+    },
+    {
+      "course_id": 7,
+      "dept_id": 1,
+      "name": "Programming Fundamentals",
+      "type": "specialized",
+      "credit_hours": 3
+    },
+    {
+      "course_id": 8,
+      "dept_id": 1,
+      "name": "Calculus 1",
+      "type": "specialized",
+      "credit_hours": 3
+    }
+  ],
+  "user_courses": [
+    {
+      "user_course_id": 1,
+      "student_id": 1001,
+      "course_id": 7,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 2,
+      "student_id": 1001,
+      "course_id": 8,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 3,
+      "student_id": 1001,
+      "course_id": 1,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 4,
+      "student_id": 1001,
+      "course_id": 2,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 5,
+      "student_id": 1001,
+      "course_id": 3,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 6,
+      "student_id": 1001,
+      "course_id": 4,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 7,
+      "student_id": 1001,
+      "course_id": 5,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 8,
+      "student_id": 1001,
+      "course_id": 6,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 9,
+      "student_id": 1002,
+      "course_id": 7,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 10,
+      "student_id": 1002,
+      "course_id": 8,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 11,
+      "student_id": 1002,
+      "course_id": 1,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 12,
+      "student_id": 1002,
+      "course_id": 2,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 13,
+      "student_id": 1002,
+      "course_id": 3,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 14,
+      "student_id": 1002,
+      "course_id": 4,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 15,
+      "student_id": 1002,
+      "course_id": 5,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 16,
+      "student_id": 1002,
+      "course_id": 6,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 17,
+      "student_id": 1003,
+      "course_id": 7,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 18,
+      "student_id": 1003,
+      "course_id": 8,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 19,
+      "student_id": 1003,
+      "course_id": 1,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 20,
+      "student_id": 1003,
+      "course_id": 2,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 21,
+      "student_id": 1003,
+      "course_id": 3,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 22,
+      "student_id": 1003,
+      "course_id": 4,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 23,
+      "student_id": 1003,
+      "course_id": 5,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 24,
+      "student_id": 1003,
+      "course_id": 6,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 25,
+      "student_id": 1004,
+      "course_id": 7,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 26,
+      "student_id": 1004,
+      "course_id": 8,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 27,
+      "student_id": 1004,
+      "course_id": 1,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 28,
+      "student_id": 1004,
+      "course_id": 2,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 29,
+      "student_id": 1004,
+      "course_id": 3,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 30,
+      "student_id": 1004,
+      "course_id": 4,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 31,
+      "student_id": 1004,
+      "course_id": 5,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 32,
+      "student_id": 1004,
+      "course_id": 6,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 33,
+      "student_id": 1005,
+      "course_id": 1,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 34,
+      "student_id": 1005,
+      "course_id": 3,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 35,
+      "student_id": 1005,
+      "course_id": 4,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 36,
+      "student_id": 1005,
+      "course_id": 5,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 37,
+      "student_id": 1006,
+      "course_id": 7,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 38,
+      "student_id": 1006,
+      "course_id": 8,
+      "enrollment_date": "2025-09-20",
+      "completed": true,
+      "completion_date": "2026-06-30"
+    },
+    {
+      "user_course_id": 39,
+      "student_id": 1006,
+      "course_id": 1,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 40,
+      "student_id": 1006,
+      "course_id": 2,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 41,
+      "student_id": 1006,
+      "course_id": 3,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 42,
+      "student_id": 1006,
+      "course_id": 4,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 43,
+      "student_id": 1006,
+      "course_id": 5,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    },
+    {
+      "user_course_id": 44,
+      "student_id": 1006,
+      "course_id": 6,
+      "enrollment_date": "2026-09-20",
+      "completed": false,
+      "completion_date": null
+    }
+  ],
+  "course_grades": [
+    {
+      "user_course_id": 1,
+      "midterm": 88,
+      "final": 90
+    },
+    {
+      "user_course_id": 2,
+      "midterm": 82,
+      "final": 85
+    },
+    {
+      "user_course_id": 3,
+      "midterm": 82,
+      "final": null
+    },
+    {
+      "user_course_id": 4,
+      "midterm": 82,
+      "final": null
+    },
+    {
+      "user_course_id": 5,
+      "midterm": 82,
+      "final": null
+    },
+    {
+      "user_course_id": 6,
+      "midterm": 82,
+      "final": null
+    },
+    {
+      "user_course_id": 7,
+      "midterm": 82,
+      "final": null
+    },
+    {
+      "user_course_id": 8,
+      "midterm": 82,
+      "final": null
+    },
+    {
+      "user_course_id": 9,
+      "midterm": 62,
+      "final": 66
+    },
+    {
+      "user_course_id": 10,
+      "midterm": 58,
+      "final": 60
+    },
+    {
+      "user_course_id": 11,
+      "midterm": 66,
+      "final": null
+    },
+    {
+      "user_course_id": 12,
+      "midterm": 66,
+      "final": null
+    },
+    {
+      "user_course_id": 13,
+      "midterm": 66,
+      "final": null
+    },
+    {
+      "user_course_id": 14,
+      "midterm": 50,
+      "final": null
+    },
+    {
+      "user_course_id": 15,
+      "midterm": 66,
+      "final": null
+    },
+    {
+      "user_course_id": 16,
+      "midterm": 66,
+      "final": null
+    },
+    {
+      "user_course_id": 17,
+      "midterm": 55,
+      "final": 58
+    },
+    {
+      "user_course_id": 18,
+      "midterm": 30,
+      "final": 35
+    },
+    {
+      "user_course_id": 19,
+      "midterm": 50,
+      "final": null
+    },
+    {
+      "user_course_id": 20,
+      "midterm": 50,
+      "final": null
+    },
+    {
+      "user_course_id": 21,
+      "midterm": 42,
+      "final": null
+    },
+    {
+      "user_course_id": 22,
+      "midterm": 45,
+      "final": null
+    },
+    {
+      "user_course_id": 23,
+      "midterm": 50,
+      "final": null
+    },
+    {
+      "user_course_id": 24,
+      "midterm": 50,
+      "final": null
+    },
+    {
+      "user_course_id": 25,
+      "midterm": 30,
+      "final": 38
+    },
+    {
+      "user_course_id": 26,
+      "midterm": 25,
+      "final": 30
+    },
+    {
+      "user_course_id": 27,
+      "midterm": 22,
+      "final": null
+    },
+    {
+      "user_course_id": 28,
+      "midterm": 22,
+      "final": null
+    },
+    {
+      "user_course_id": 29,
+      "midterm": 22,
+      "final": null
+    },
+    {
+      "user_course_id": 30,
+      "midterm": 22,
+      "final": null
+    },
+    {
+      "user_course_id": 31,
+      "midterm": 22,
+      "final": null
+    },
+    {
+      "user_course_id": 32,
+      "midterm": 22,
+      "final": null
+    },
+    {
+      "user_course_id": 33,
+      "midterm": null,
+      "final": null
+    },
+    {
+      "user_course_id": 34,
+      "midterm": null,
+      "final": null
+    },
+    {
+      "user_course_id": 35,
+      "midterm": null,
+      "final": null
+    },
+    {
+      "user_course_id": 36,
+      "midterm": null,
+      "final": null
+    },
+    {
+      "user_course_id": 37,
+      "midterm": 76,
+      "final": 78
+    },
+    {
+      "user_course_id": 38,
+      "midterm": 72,
+      "final": 75
+    },
+    {
+      "user_course_id": 39,
+      "midterm": 78,
+      "final": null
+    },
+    {
+      "user_course_id": 40,
+      "midterm": 78,
+      "final": null
+    },
+    {
+      "user_course_id": 41,
+      "midterm": 78,
+      "final": null
+    },
+    {
+      "user_course_id": 42,
+      "midterm": 78,
+      "final": null
+    },
+    {
+      "user_course_id": 43,
+      "midterm": 78,
+      "final": null
+    },
+    {
+      "user_course_id": 44,
+      "midterm": 78,
+      "final": null
+    }
+  ],
+  "assessments": [
+    {
+      "assessment_id": 1,
+      "user_course_id": 1,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 2,
+      "user_course_id": 1,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 17.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 3,
+      "user_course_id": 1,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 4,
+      "user_course_id": 2,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 5,
+      "user_course_id": 2,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 16.7,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 6,
+      "user_course_id": 2,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.8,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 7,
+      "user_course_id": 3,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.8,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-11T20:00:00"
+    },
+    {
+      "assessment_id": 8,
+      "user_course_id": 3,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 17.5,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T07:00:00"
+    },
+    {
+      "assessment_id": 9,
+      "user_course_id": 3,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T05:00:00"
+    },
+    {
+      "assessment_id": 10,
+      "user_course_id": 3,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 16.4,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T08:00:00"
+    },
+    {
+      "assessment_id": 11,
+      "user_course_id": 3,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T21:00:00"
+    },
+    {
+      "assessment_id": 12,
+      "user_course_id": 3,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 13,
+      "user_course_id": 4,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T13:00:00"
+    },
+    {
+      "assessment_id": 14,
+      "user_course_id": 4,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 17.7,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T19:00:00"
+    },
+    {
+      "assessment_id": 15,
+      "user_course_id": 4,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T01:00:00"
+    },
+    {
+      "assessment_id": 16,
+      "user_course_id": 4,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 17.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T08:00:00"
+    },
+    {
+      "assessment_id": 17,
+      "user_course_id": 4,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T18:00:00"
+    },
+    {
+      "assessment_id": 18,
+      "user_course_id": 4,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 19,
+      "user_course_id": 5,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.9,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T10:00:00"
+    },
+    {
+      "assessment_id": 20,
+      "user_course_id": 5,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 16.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T02:00:00"
+    },
+    {
+      "assessment_id": 21,
+      "user_course_id": 5,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T10:00:00"
+    },
+    {
+      "assessment_id": 22,
+      "user_course_id": 5,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 18.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T15:00:00"
+    },
+    {
+      "assessment_id": 23,
+      "user_course_id": 5,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 9.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T04:00:00"
+    },
+    {
+      "assessment_id": 24,
+      "user_course_id": 5,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 25,
+      "user_course_id": 6,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T10:00:00"
+    },
+    {
+      "assessment_id": 26,
+      "user_course_id": 6,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 16.5,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T10:00:00"
+    },
+    {
+      "assessment_id": 27,
+      "user_course_id": 6,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T08:00:00"
+    },
+    {
+      "assessment_id": 28,
+      "user_course_id": 6,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 17.6,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-09T20:00:00"
+    },
+    {
+      "assessment_id": 29,
+      "user_course_id": 6,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T19:00:00"
+    },
+    {
+      "assessment_id": 30,
+      "user_course_id": 6,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 31,
+      "user_course_id": 7,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T06:00:00"
+    },
+    {
+      "assessment_id": 32,
+      "user_course_id": 7,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 18.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T19:00:00"
+    },
+    {
+      "assessment_id": 33,
+      "user_course_id": 7,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T21:00:00"
+    },
+    {
+      "assessment_id": 34,
+      "user_course_id": 7,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 17.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T05:00:00"
+    },
+    {
+      "assessment_id": 35,
+      "user_course_id": 7,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 9.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T16:00:00"
+    },
+    {
+      "assessment_id": 36,
+      "user_course_id": 7,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 37,
+      "user_course_id": 8,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T12:00:00"
+    },
+    {
+      "assessment_id": 38,
+      "user_course_id": 8,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 16.8,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T06:00:00"
+    },
+    {
+      "assessment_id": 39,
+      "user_course_id": 8,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T15:00:00"
+    },
+    {
+      "assessment_id": 40,
+      "user_course_id": 8,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 15.4,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T07:00:00"
+    },
+    {
+      "assessment_id": 41,
+      "user_course_id": 8,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 9.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T08:00:00"
+    },
+    {
+      "assessment_id": 42,
+      "user_course_id": 8,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 43,
+      "user_course_id": 9,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 7.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 44,
+      "user_course_id": 9,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 13.6,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 45,
+      "user_course_id": 9,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 6.8,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 46,
+      "user_course_id": 10,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 47,
+      "user_course_id": 10,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 12.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 48,
+      "user_course_id": 10,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 49,
+      "user_course_id": 11,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-13T20:00:00"
+    },
+    {
+      "assessment_id": 50,
+      "user_course_id": 11,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 14.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T09:00:00"
+    },
+    {
+      "assessment_id": 51,
+      "user_course_id": 11,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-11-03T20:00:00"
+    },
+    {
+      "assessment_id": 52,
+      "user_course_id": 11,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 13.9,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T17:00:00"
+    },
+    {
+      "assessment_id": 53,
+      "user_course_id": 11,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T13:00:00"
+    },
+    {
+      "assessment_id": 54,
+      "user_course_id": 11,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 55,
+      "user_course_id": 12,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 7.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T02:00:00"
+    },
+    {
+      "assessment_id": 56,
+      "user_course_id": 12,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 14.5,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T00:00:00"
+    },
+    {
+      "assessment_id": 57,
+      "user_course_id": 12,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T23:00:00"
+    },
+    {
+      "assessment_id": 58,
+      "user_course_id": 12,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 15.7,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-10T20:00:00"
+    },
+    {
+      "assessment_id": 59,
+      "user_course_id": 12,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 6.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T10:00:00"
+    },
+    {
+      "assessment_id": 60,
+      "user_course_id": 12,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 61,
+      "user_course_id": 13,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 62,
+      "user_course_id": 13,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 17.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-19T20:00:00"
+    },
+    {
+      "assessment_id": 63,
+      "user_course_id": 13,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T18:00:00"
+    },
+    {
+      "assessment_id": 64,
+      "user_course_id": 13,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 15.7,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-08T20:00:00"
+    },
+    {
+      "assessment_id": 65,
+      "user_course_id": 13,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 6.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T09:00:00"
+    },
+    {
+      "assessment_id": 66,
+      "user_course_id": 13,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 67,
+      "user_course_id": 14,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 7.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T07:00:00"
+    },
+    {
+      "assessment_id": 68,
+      "user_course_id": 14,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 14.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T16:00:00"
+    },
+    {
+      "assessment_id": 69,
+      "user_course_id": 14,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.9,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T12:00:00"
+    },
+    {
+      "assessment_id": 70,
+      "user_course_id": 14,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 12.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-09T20:00:00"
+    },
+    {
+      "assessment_id": 71,
+      "user_course_id": 14,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T04:00:00"
+    },
+    {
+      "assessment_id": 72,
+      "user_course_id": 14,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 73,
+      "user_course_id": 15,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 74,
+      "user_course_id": 15,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 13.6,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T22:00:00"
+    },
+    {
+      "assessment_id": 75,
+      "user_course_id": 15,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T06:00:00"
+    },
+    {
+      "assessment_id": 76,
+      "user_course_id": 15,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 13.9,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T18:00:00"
+    },
+    {
+      "assessment_id": 77,
+      "user_course_id": 15,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T06:00:00"
+    },
+    {
+      "assessment_id": 78,
+      "user_course_id": 15,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 79,
+      "user_course_id": 16,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T06:00:00"
+    },
+    {
+      "assessment_id": 80,
+      "user_course_id": 16,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 14.8,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T15:00:00"
+    },
+    {
+      "assessment_id": 81,
+      "user_course_id": 16,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T22:00:00"
+    },
+    {
+      "assessment_id": 82,
+      "user_course_id": 16,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 13.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T08:00:00"
+    },
+    {
+      "assessment_id": 83,
+      "user_course_id": 16,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 6.9,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T21:00:00"
+    },
+    {
+      "assessment_id": 84,
+      "user_course_id": 16,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 85,
+      "user_course_id": 17,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 86,
+      "user_course_id": 17,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 13.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 87,
+      "user_course_id": 17,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 6.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 88,
+      "user_course_id": 18,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 3.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 89,
+      "user_course_id": 18,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 9.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 90,
+      "user_course_id": 18,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 3.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 91,
+      "user_course_id": 19,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T07:00:00"
+    },
+    {
+      "assessment_id": 92,
+      "user_course_id": 19,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 9.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T13:00:00"
+    },
+    {
+      "assessment_id": 93,
+      "user_course_id": 19,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 4.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T22:00:00"
+    },
+    {
+      "assessment_id": 94,
+      "user_course_id": 19,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 11.4,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T10:00:00"
+    },
+    {
+      "assessment_id": 95,
+      "user_course_id": 19,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 6.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-16T20:00:00"
+    },
+    {
+      "assessment_id": 96,
+      "user_course_id": 19,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 97,
+      "user_course_id": 20,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 5.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T21:00:00"
+    },
+    {
+      "assessment_id": 98,
+      "user_course_id": 20,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 10.5,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T05:00:00"
+    },
+    {
+      "assessment_id": 99,
+      "user_course_id": 20,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 5.9,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-11-03T20:00:00"
+    },
+    {
+      "assessment_id": 100,
+      "user_course_id": 20,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 12.5,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T16:00:00"
+    },
+    {
+      "assessment_id": 101,
+      "user_course_id": 20,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 5.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T04:00:00"
+    },
+    {
+      "assessment_id": 102,
+      "user_course_id": 20,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 103,
+      "user_course_id": 21,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 104,
+      "user_course_id": 21,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 12.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T22:00:00"
+    },
+    {
+      "assessment_id": 105,
+      "user_course_id": 21,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 5.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T18:00:00"
+    },
+    {
+      "assessment_id": 106,
+      "user_course_id": 21,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 12.6,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T12:00:00"
+    },
+    {
+      "assessment_id": 107,
+      "user_course_id": 21,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 108,
+      "user_course_id": 21,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 109,
+      "user_course_id": 22,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 5.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-13T20:00:00"
+    },
+    {
+      "assessment_id": 110,
+      "user_course_id": 22,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 10.9,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-19T20:00:00"
+    },
+    {
+      "assessment_id": 111,
+      "user_course_id": 22,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 112,
+      "user_course_id": 22,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 113,
+      "user_course_id": 22,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 4.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T18:00:00"
+    },
+    {
+      "assessment_id": 114,
+      "user_course_id": 22,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 115,
+      "user_course_id": 23,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-12T20:00:00"
+    },
+    {
+      "assessment_id": 116,
+      "user_course_id": 23,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 9.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T09:00:00"
+    },
+    {
+      "assessment_id": 117,
+      "user_course_id": 23,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 5.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T08:00:00"
+    },
+    {
+      "assessment_id": 118,
+      "user_course_id": 23,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 6.9,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T05:00:00"
+    },
+    {
+      "assessment_id": 119,
+      "user_course_id": 23,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 6.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-16T20:00:00"
+    },
+    {
+      "assessment_id": 120,
+      "user_course_id": 23,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 121,
+      "user_course_id": 24,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 122,
+      "user_course_id": 24,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 9.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T03:00:00"
+    },
+    {
+      "assessment_id": 123,
+      "user_course_id": 24,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 5.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T13:00:00"
+    },
+    {
+      "assessment_id": 124,
+      "user_course_id": 24,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 9.5,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T03:00:00"
+    },
+    {
+      "assessment_id": 125,
+      "user_course_id": 24,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 4.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T15:00:00"
+    },
+    {
+      "assessment_id": 126,
+      "user_course_id": 24,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 127,
+      "user_course_id": 25,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 3.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 128,
+      "user_course_id": 25,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 5.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 129,
+      "user_course_id": 25,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 2.9,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 130,
+      "user_course_id": 26,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 3.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 131,
+      "user_course_id": 26,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 5.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 132,
+      "user_course_id": 26,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 2.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 133,
+      "user_course_id": 27,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 3.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-11T20:00:00"
+    },
+    {
+      "assessment_id": 134,
+      "user_course_id": 27,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 2.9,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-19T20:00:00"
+    },
+    {
+      "assessment_id": 135,
+      "user_course_id": 27,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 136,
+      "user_course_id": 27,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 137,
+      "user_course_id": 27,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 138,
+      "user_course_id": 27,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 139,
+      "user_course_id": 28,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 140,
+      "user_course_id": 28,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 4.8,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T09:00:00"
+    },
+    {
+      "assessment_id": 141,
+      "user_course_id": 28,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 142,
+      "user_course_id": 28,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 4.6,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T06:00:00"
+    },
+    {
+      "assessment_id": 143,
+      "user_course_id": 28,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 3.9,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T12:00:00"
+    },
+    {
+      "assessment_id": 144,
+      "user_course_id": 28,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 145,
+      "user_course_id": 29,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 4.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T06:00:00"
+    },
+    {
+      "assessment_id": 146,
+      "user_course_id": 29,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 147,
+      "user_course_id": 29,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 148,
+      "user_course_id": 29,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 3.8,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T09:00:00"
+    },
+    {
+      "assessment_id": 149,
+      "user_course_id": 29,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 150,
+      "user_course_id": 29,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 151,
+      "user_course_id": 30,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 152,
+      "user_course_id": 30,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 7.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T01:00:00"
+    },
+    {
+      "assessment_id": 153,
+      "user_course_id": 30,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 1.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T07:00:00"
+    },
+    {
+      "assessment_id": 154,
+      "user_course_id": 30,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 155,
+      "user_course_id": 30,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 3.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T11:00:00"
+    },
+    {
+      "assessment_id": 156,
+      "user_course_id": 30,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 157,
+      "user_course_id": 31,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 2.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T18:00:00"
+    },
+    {
+      "assessment_id": 158,
+      "user_course_id": 31,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 3.8,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-19T20:00:00"
+    },
+    {
+      "assessment_id": 159,
+      "user_course_id": 31,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 2.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T14:00:00"
+    },
+    {
+      "assessment_id": 160,
+      "user_course_id": 31,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 6.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T14:00:00"
+    },
+    {
+      "assessment_id": 161,
+      "user_course_id": 31,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 3.8,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T17:00:00"
+    },
+    {
+      "assessment_id": 162,
+      "user_course_id": 31,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 163,
+      "user_course_id": 32,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 164,
+      "user_course_id": 32,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 7.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T18:00:00"
+    },
+    {
+      "assessment_id": 165,
+      "user_course_id": 32,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": null,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 166,
+      "user_course_id": 32,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 5.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T10:00:00"
+    },
+    {
+      "assessment_id": 167,
+      "user_course_id": 32,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 2.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T10:00:00"
+    },
+    {
+      "assessment_id": 168,
+      "user_course_id": 32,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 169,
+      "user_course_id": 33,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T16:00:00"
+    },
+    {
+      "assessment_id": 170,
+      "user_course_id": 33,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 14.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T18:00:00"
+    },
+    {
+      "assessment_id": 171,
+      "user_course_id": 34,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T02:00:00"
+    },
+    {
+      "assessment_id": 172,
+      "user_course_id": 34,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 13.9,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T08:00:00"
+    },
+    {
+      "assessment_id": 173,
+      "user_course_id": 35,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T16:00:00"
+    },
+    {
+      "assessment_id": 174,
+      "user_course_id": 35,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 15.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T03:00:00"
+    },
+    {
+      "assessment_id": 175,
+      "user_course_id": 36,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 7.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T14:00:00"
+    },
+    {
+      "assessment_id": 176,
+      "user_course_id": 36,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 15.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T02:00:00"
+    },
+    {
+      "assessment_id": 177,
+      "user_course_id": 37,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 178,
+      "user_course_id": 37,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 15.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 179,
+      "user_course_id": 37,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.1,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 180,
+      "user_course_id": 38,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-01",
+      "submitted_at": "2026-03-01T10:00:00"
+    },
+    {
+      "assessment_id": 181,
+      "user_course_id": 38,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 14.8,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-03-15",
+      "submitted_at": "2026-03-15T10:00:00"
+    },
+    {
+      "assessment_id": 182,
+      "user_course_id": 38,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-03-29",
+      "submitted_at": "2026-03-29T10:00:00"
+    },
+    {
+      "assessment_id": 183,
+      "user_course_id": 39,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T00:00:00"
+    },
+    {
+      "assessment_id": 184,
+      "user_course_id": 39,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 16.4,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-20T20:00:00"
+    },
+    {
+      "assessment_id": 185,
+      "user_course_id": 39,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T04:00:00"
+    },
+    {
+      "assessment_id": 186,
+      "user_course_id": 39,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 17.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T04:00:00"
+    },
+    {
+      "assessment_id": 187,
+      "user_course_id": 39,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T06:00:00"
+    },
+    {
+      "assessment_id": 188,
+      "user_course_id": 39,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 189,
+      "user_course_id": 40,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T01:00:00"
+    },
+    {
+      "assessment_id": 190,
+      "user_course_id": 40,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 15.2,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T12:00:00"
+    },
+    {
+      "assessment_id": 191,
+      "user_course_id": 40,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T13:00:00"
+    },
+    {
+      "assessment_id": 192,
+      "user_course_id": 40,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 18.0,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T04:00:00"
+    },
+    {
+      "assessment_id": 193,
+      "user_course_id": 40,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.9,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T07:00:00"
+    },
+    {
+      "assessment_id": 194,
+      "user_course_id": 40,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 195,
+      "user_course_id": 41,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 6.5,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T14:00:00"
+    },
+    {
+      "assessment_id": 196,
+      "user_course_id": 41,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 14.4,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T11:00:00"
+    },
+    {
+      "assessment_id": 197,
+      "user_course_id": 41,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-30T23:00:00"
+    },
+    {
+      "assessment_id": 198,
+      "user_course_id": 41,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 16.6,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T18:00:00"
+    },
+    {
+      "assessment_id": 199,
+      "user_course_id": 41,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T08:00:00"
+    },
+    {
+      "assessment_id": 200,
+      "user_course_id": 41,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 201,
+      "user_course_id": 42,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 7.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-10T11:00:00"
+    },
+    {
+      "assessment_id": 202,
+      "user_course_id": 42,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 16.7,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-17T13:00:00"
+    },
+    {
+      "assessment_id": 203,
+      "user_course_id": 42,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.6,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-11-02T20:00:00"
+    },
+    {
+      "assessment_id": 204,
+      "user_course_id": 42,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 15.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-06T06:00:00"
+    },
+    {
+      "assessment_id": 205,
+      "user_course_id": 42,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.4,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-14T04:00:00"
+    },
+    {
+      "assessment_id": 206,
+      "user_course_id": 42,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 207,
+      "user_course_id": 43,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 7.3,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T09:00:00"
+    },
+    {
+      "assessment_id": 208,
+      "user_course_id": 43,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 16.9,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T05:00:00"
+    },
+    {
+      "assessment_id": 209,
+      "user_course_id": 43,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 8.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T16:00:00"
+    },
+    {
+      "assessment_id": 210,
+      "user_course_id": 43,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 17.3,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T17:00:00"
+    },
+    {
+      "assessment_id": 211,
+      "user_course_id": 43,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 7.7,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-13T17:00:00"
+    },
+    {
+      "assessment_id": 212,
+      "user_course_id": 43,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    },
+    {
+      "assessment_id": 213,
+      "user_course_id": 44,
+      "type": "quiz",
+      "name": "Quiz 1",
+      "score": 8.0,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-10",
+      "submitted_at": "2026-10-09T07:00:00"
+    },
+    {
+      "assessment_id": 214,
+      "user_course_id": 44,
+      "type": "assignment",
+      "name": "Assignment 1",
+      "score": 15.4,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-10-17",
+      "submitted_at": "2026-10-16T14:00:00"
+    },
+    {
+      "assessment_id": 215,
+      "user_course_id": 44,
+      "type": "quiz",
+      "name": "Quiz 2",
+      "score": 7.2,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-10-31",
+      "submitted_at": "2026-10-31T12:00:00"
+    },
+    {
+      "assessment_id": 216,
+      "user_course_id": 44,
+      "type": "assignment",
+      "name": "Assignment 2",
+      "score": 17.1,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-07",
+      "submitted_at": "2026-11-07T02:00:00"
+    },
+    {
+      "assessment_id": 217,
+      "user_course_id": 44,
+      "type": "quiz",
+      "name": "Quiz 3",
+      "score": 8.8,
+      "max_score": 10,
+      "weight": 5,
+      "due_date": "2026-11-14",
+      "submitted_at": "2026-11-15T20:00:00"
+    },
+    {
+      "assessment_id": 218,
+      "user_course_id": 44,
+      "type": "assignment",
+      "name": "Assignment 3",
+      "score": null,
+      "max_score": 20,
+      "weight": 10,
+      "due_date": "2026-11-28",
+      "submitted_at": null
+    }
+  ],
+  "lectures": [
+    {
+      "lecture_id": 1,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 1",
+      "lecture_date": "2026-09-27"
+    },
+    {
+      "lecture_id": 2,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 2",
+      "lecture_date": "2026-09-30"
+    },
+    {
+      "lecture_id": 3,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 3",
+      "lecture_date": "2026-10-04"
+    },
+    {
+      "lecture_id": 4,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 4",
+      "lecture_date": "2026-10-07"
+    },
+    {
+      "lecture_id": 5,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 5",
+      "lecture_date": "2026-10-11"
+    },
+    {
+      "lecture_id": 6,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 6",
+      "lecture_date": "2026-10-14"
+    },
+    {
+      "lecture_id": 7,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 7",
+      "lecture_date": "2026-10-18"
+    },
+    {
+      "lecture_id": 8,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 8",
+      "lecture_date": "2026-10-21"
+    },
+    {
+      "lecture_id": 9,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 9",
+      "lecture_date": "2026-10-25"
+    },
+    {
+      "lecture_id": 10,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 10",
+      "lecture_date": "2026-10-28"
+    },
+    {
+      "lecture_id": 11,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 11",
+      "lecture_date": "2026-11-01"
+    },
+    {
+      "lecture_id": 12,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 12",
+      "lecture_date": "2026-11-04"
+    },
+    {
+      "lecture_id": 13,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 13",
+      "lecture_date": "2026-11-08"
+    },
+    {
+      "lecture_id": 14,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 14",
+      "lecture_date": "2026-11-11"
+    },
+    {
+      "lecture_id": 15,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 15",
+      "lecture_date": "2026-11-15"
+    },
+    {
+      "lecture_id": 16,
+      "course_id": 1,
+      "name": "Scientific Thinking - Lecture 16",
+      "lecture_date": "2026-11-18"
+    },
+    {
+      "lecture_id": 17,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 1",
+      "lecture_date": "2026-09-28"
+    },
+    {
+      "lecture_id": 18,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 2",
+      "lecture_date": "2026-10-01"
+    },
+    {
+      "lecture_id": 19,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 3",
+      "lecture_date": "2026-10-05"
+    },
+    {
+      "lecture_id": 20,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 4",
+      "lecture_date": "2026-10-08"
+    },
+    {
+      "lecture_id": 21,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 5",
+      "lecture_date": "2026-10-12"
+    },
+    {
+      "lecture_id": 22,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 6",
+      "lecture_date": "2026-10-15"
+    },
+    {
+      "lecture_id": 23,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 7",
+      "lecture_date": "2026-10-19"
+    },
+    {
+      "lecture_id": 24,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 8",
+      "lecture_date": "2026-10-22"
+    },
+    {
+      "lecture_id": 25,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 9",
+      "lecture_date": "2026-10-26"
+    },
+    {
+      "lecture_id": 26,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 10",
+      "lecture_date": "2026-10-29"
+    },
+    {
+      "lecture_id": 27,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 11",
+      "lecture_date": "2026-11-02"
+    },
+    {
+      "lecture_id": 28,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 12",
+      "lecture_date": "2026-11-05"
+    },
+    {
+      "lecture_id": 29,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 13",
+      "lecture_date": "2026-11-09"
+    },
+    {
+      "lecture_id": 30,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 14",
+      "lecture_date": "2026-11-12"
+    },
+    {
+      "lecture_id": 31,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 15",
+      "lecture_date": "2026-11-16"
+    },
+    {
+      "lecture_id": 32,
+      "course_id": 2,
+      "name": "Technical Report Writing - Lecture 16",
+      "lecture_date": "2026-11-19"
+    },
+    {
+      "lecture_id": 33,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 1",
+      "lecture_date": "2026-09-26"
+    },
+    {
+      "lecture_id": 34,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 2",
+      "lecture_date": "2026-09-29"
+    },
+    {
+      "lecture_id": 35,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 3",
+      "lecture_date": "2026-10-03"
+    },
+    {
+      "lecture_id": 36,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 4",
+      "lecture_date": "2026-10-06"
+    },
+    {
+      "lecture_id": 37,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 5",
+      "lecture_date": "2026-10-10"
+    },
+    {
+      "lecture_id": 38,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 6",
+      "lecture_date": "2026-10-13"
+    },
+    {
+      "lecture_id": 39,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 7",
+      "lecture_date": "2026-10-17"
+    },
+    {
+      "lecture_id": 40,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 8",
+      "lecture_date": "2026-10-20"
+    },
+    {
+      "lecture_id": 41,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 9",
+      "lecture_date": "2026-10-24"
+    },
+    {
+      "lecture_id": 42,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 10",
+      "lecture_date": "2026-10-27"
+    },
+    {
+      "lecture_id": 43,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 11",
+      "lecture_date": "2026-10-31"
+    },
+    {
+      "lecture_id": 44,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 12",
+      "lecture_date": "2026-11-03"
+    },
+    {
+      "lecture_id": 45,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 13",
+      "lecture_date": "2026-11-07"
+    },
+    {
+      "lecture_id": 46,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 14",
+      "lecture_date": "2026-11-10"
+    },
+    {
+      "lecture_id": 47,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 15",
+      "lecture_date": "2026-11-14"
+    },
+    {
+      "lecture_id": 48,
+      "course_id": 3,
+      "name": "Data Structures - Lecture 16",
+      "lecture_date": "2026-11-17"
+    },
+    {
+      "lecture_id": 49,
+      "course_id": 4,
+      "name": "Databases - Lecture 1",
+      "lecture_date": "2026-09-27"
+    },
+    {
+      "lecture_id": 50,
+      "course_id": 4,
+      "name": "Databases - Lecture 2",
+      "lecture_date": "2026-09-30"
+    },
+    {
+      "lecture_id": 51,
+      "course_id": 4,
+      "name": "Databases - Lecture 3",
+      "lecture_date": "2026-10-04"
+    },
+    {
+      "lecture_id": 52,
+      "course_id": 4,
+      "name": "Databases - Lecture 4",
+      "lecture_date": "2026-10-07"
+    },
+    {
+      "lecture_id": 53,
+      "course_id": 4,
+      "name": "Databases - Lecture 5",
+      "lecture_date": "2026-10-11"
+    },
+    {
+      "lecture_id": 54,
+      "course_id": 4,
+      "name": "Databases - Lecture 6",
+      "lecture_date": "2026-10-14"
+    },
+    {
+      "lecture_id": 55,
+      "course_id": 4,
+      "name": "Databases - Lecture 7",
+      "lecture_date": "2026-10-18"
+    },
+    {
+      "lecture_id": 56,
+      "course_id": 4,
+      "name": "Databases - Lecture 8",
+      "lecture_date": "2026-10-21"
+    },
+    {
+      "lecture_id": 57,
+      "course_id": 4,
+      "name": "Databases - Lecture 9",
+      "lecture_date": "2026-10-25"
+    },
+    {
+      "lecture_id": 58,
+      "course_id": 4,
+      "name": "Databases - Lecture 10",
+      "lecture_date": "2026-10-28"
+    },
+    {
+      "lecture_id": 59,
+      "course_id": 4,
+      "name": "Databases - Lecture 11",
+      "lecture_date": "2026-11-01"
+    },
+    {
+      "lecture_id": 60,
+      "course_id": 4,
+      "name": "Databases - Lecture 12",
+      "lecture_date": "2026-11-04"
+    },
+    {
+      "lecture_id": 61,
+      "course_id": 4,
+      "name": "Databases - Lecture 13",
+      "lecture_date": "2026-11-08"
+    },
+    {
+      "lecture_id": 62,
+      "course_id": 4,
+      "name": "Databases - Lecture 14",
+      "lecture_date": "2026-11-11"
+    },
+    {
+      "lecture_id": 63,
+      "course_id": 4,
+      "name": "Databases - Lecture 15",
+      "lecture_date": "2026-11-15"
+    },
+    {
+      "lecture_id": 64,
+      "course_id": 4,
+      "name": "Databases - Lecture 16",
+      "lecture_date": "2026-11-18"
+    },
+    {
+      "lecture_id": 65,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 1",
+      "lecture_date": "2026-09-28"
+    },
+    {
+      "lecture_id": 66,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 2",
+      "lecture_date": "2026-10-01"
+    },
+    {
+      "lecture_id": 67,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 3",
+      "lecture_date": "2026-10-05"
+    },
+    {
+      "lecture_id": 68,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 4",
+      "lecture_date": "2026-10-08"
+    },
+    {
+      "lecture_id": 69,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 5",
+      "lecture_date": "2026-10-12"
+    },
+    {
+      "lecture_id": 70,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 6",
+      "lecture_date": "2026-10-15"
+    },
+    {
+      "lecture_id": 71,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 7",
+      "lecture_date": "2026-10-19"
+    },
+    {
+      "lecture_id": 72,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 8",
+      "lecture_date": "2026-10-22"
+    },
+    {
+      "lecture_id": 73,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 9",
+      "lecture_date": "2026-10-26"
+    },
+    {
+      "lecture_id": 74,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 10",
+      "lecture_date": "2026-10-29"
+    },
+    {
+      "lecture_id": 75,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 11",
+      "lecture_date": "2026-11-02"
+    },
+    {
+      "lecture_id": 76,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 12",
+      "lecture_date": "2026-11-05"
+    },
+    {
+      "lecture_id": 77,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 13",
+      "lecture_date": "2026-11-09"
+    },
+    {
+      "lecture_id": 78,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 14",
+      "lecture_date": "2026-11-12"
+    },
+    {
+      "lecture_id": 79,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 15",
+      "lecture_date": "2026-11-16"
+    },
+    {
+      "lecture_id": 80,
+      "course_id": 5,
+      "name": "Digital Logic Design - Lecture 16",
+      "lecture_date": "2026-11-19"
+    },
+    {
+      "lecture_id": 81,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 1",
+      "lecture_date": "2026-09-26"
+    },
+    {
+      "lecture_id": 82,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 2",
+      "lecture_date": "2026-09-29"
+    },
+    {
+      "lecture_id": 83,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 3",
+      "lecture_date": "2026-10-03"
+    },
+    {
+      "lecture_id": 84,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 4",
+      "lecture_date": "2026-10-06"
+    },
+    {
+      "lecture_id": 85,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 5",
+      "lecture_date": "2026-10-10"
+    },
+    {
+      "lecture_id": 86,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 6",
+      "lecture_date": "2026-10-13"
+    },
+    {
+      "lecture_id": 87,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 7",
+      "lecture_date": "2026-10-17"
+    },
+    {
+      "lecture_id": 88,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 8",
+      "lecture_date": "2026-10-20"
+    },
+    {
+      "lecture_id": 89,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 9",
+      "lecture_date": "2026-10-24"
+    },
+    {
+      "lecture_id": 90,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 10",
+      "lecture_date": "2026-10-27"
+    },
+    {
+      "lecture_id": 91,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 11",
+      "lecture_date": "2026-10-31"
+    },
+    {
+      "lecture_id": 92,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 12",
+      "lecture_date": "2026-11-03"
+    },
+    {
+      "lecture_id": 93,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 13",
+      "lecture_date": "2026-11-07"
+    },
+    {
+      "lecture_id": 94,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 14",
+      "lecture_date": "2026-11-10"
+    },
+    {
+      "lecture_id": 95,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 15",
+      "lecture_date": "2026-11-14"
+    },
+    {
+      "lecture_id": 96,
+      "course_id": 6,
+      "name": "Signals and Systems - Lecture 16",
+      "lecture_date": "2026-11-17"
+    }
+  ],
+  "lecture_attendance": [
+    {
+      "user_course_id": 3,
+      "lecture_id": 1,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 2,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 3,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 4,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 5,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 6,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 7,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 8,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 9,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 10,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 11,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 12,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 13,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 14,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 15,
+      "attended": true
+    },
+    {
+      "user_course_id": 3,
+      "lecture_id": 16,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 17,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 18,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 19,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 20,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 21,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 22,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 23,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 24,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 25,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 26,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 27,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 28,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 29,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 30,
+      "attended": true
+    },
+    {
+      "user_course_id": 4,
+      "lecture_id": 31,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 33,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 34,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 35,
+      "attended": false
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 36,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 37,
+      "attended": false
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 38,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 39,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 40,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 41,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 42,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 43,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 44,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 45,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 46,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 47,
+      "attended": true
+    },
+    {
+      "user_course_id": 5,
+      "lecture_id": 48,
+      "attended": false
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 49,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 50,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 51,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 52,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 53,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 54,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 55,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 56,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 57,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 58,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 59,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 60,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 61,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 62,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 63,
+      "attended": true
+    },
+    {
+      "user_course_id": 6,
+      "lecture_id": 64,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 65,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 66,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 67,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 68,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 69,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 70,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 71,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 72,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 73,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 74,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 75,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 76,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 77,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 78,
+      "attended": true
+    },
+    {
+      "user_course_id": 7,
+      "lecture_id": 79,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 81,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 82,
+      "attended": false
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 83,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 84,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 85,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 86,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 87,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 88,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 89,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 90,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 91,
+      "attended": false
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 92,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 93,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 94,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 95,
+      "attended": true
+    },
+    {
+      "user_course_id": 8,
+      "lecture_id": 96,
+      "attended": false
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 1,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 2,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 3,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 4,
+      "attended": false
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 5,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 6,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 7,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 8,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 9,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 10,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 11,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 12,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 13,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 14,
+      "attended": true
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 15,
+      "attended": false
+    },
+    {
+      "user_course_id": 11,
+      "lecture_id": 16,
+      "attended": false
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 17,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 18,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 19,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 20,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 21,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 22,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 23,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 24,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 25,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 26,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 27,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 28,
+      "attended": false
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 29,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 30,
+      "attended": true
+    },
+    {
+      "user_course_id": 12,
+      "lecture_id": 31,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 33,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 34,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 35,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 36,
+      "attended": false
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 37,
+      "attended": false
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 38,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 39,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 40,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 41,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 42,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 43,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 44,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 45,
+      "attended": false
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 46,
+      "attended": true
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 47,
+      "attended": false
+    },
+    {
+      "user_course_id": 13,
+      "lecture_id": 48,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 49,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 50,
+      "attended": false
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 51,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 52,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 53,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 54,
+      "attended": false
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 55,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 56,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 57,
+      "attended": false
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 58,
+      "attended": false
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 59,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 60,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 61,
+      "attended": false
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 62,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 63,
+      "attended": true
+    },
+    {
+      "user_course_id": 14,
+      "lecture_id": 64,
+      "attended": false
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 65,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 66,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 67,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 68,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 69,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 70,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 71,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 72,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 73,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 74,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 75,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 76,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 77,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 78,
+      "attended": true
+    },
+    {
+      "user_course_id": 15,
+      "lecture_id": 79,
+      "attended": false
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 81,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 82,
+      "attended": false
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 83,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 84,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 85,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 86,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 87,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 88,
+      "attended": false
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 89,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 90,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 91,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 92,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 93,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 94,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 95,
+      "attended": true
+    },
+    {
+      "user_course_id": 16,
+      "lecture_id": 96,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 1,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 2,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 3,
+      "attended": false
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 4,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 5,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 6,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 7,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 8,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 9,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 10,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 11,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 12,
+      "attended": false
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 13,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 14,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 15,
+      "attended": true
+    },
+    {
+      "user_course_id": 19,
+      "lecture_id": 16,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 17,
+      "attended": false
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 18,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 19,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 20,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 21,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 22,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 23,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 24,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 25,
+      "attended": false
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 26,
+      "attended": false
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 27,
+      "attended": false
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 28,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 29,
+      "attended": false
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 30,
+      "attended": true
+    },
+    {
+      "user_course_id": 20,
+      "lecture_id": 31,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 33,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 34,
+      "attended": false
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 35,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 36,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 37,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 38,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 39,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 40,
+      "attended": false
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 41,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 42,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 43,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 44,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 45,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 46,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 47,
+      "attended": true
+    },
+    {
+      "user_course_id": 21,
+      "lecture_id": 48,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 49,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 50,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 51,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 52,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 53,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 54,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 55,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 56,
+      "attended": false
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 57,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 58,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 59,
+      "attended": false
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 60,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 61,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 62,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 63,
+      "attended": true
+    },
+    {
+      "user_course_id": 22,
+      "lecture_id": 64,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 65,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 66,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 67,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 68,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 69,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 70,
+      "attended": false
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 71,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 72,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 73,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 74,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 75,
+      "attended": false
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 76,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 77,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 78,
+      "attended": true
+    },
+    {
+      "user_course_id": 23,
+      "lecture_id": 79,
+      "attended": false
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 81,
+      "attended": false
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 82,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 83,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 84,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 85,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 86,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 87,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 88,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 89,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 90,
+      "attended": false
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 91,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 92,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 93,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 94,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 95,
+      "attended": true
+    },
+    {
+      "user_course_id": 24,
+      "lecture_id": 96,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 1,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 2,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 3,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 4,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 5,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 6,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 7,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 8,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 9,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 10,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 11,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 12,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 13,
+      "attended": false
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 14,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 15,
+      "attended": true
+    },
+    {
+      "user_course_id": 27,
+      "lecture_id": 16,
+      "attended": false
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 17,
+      "attended": false
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 18,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 19,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 20,
+      "attended": false
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 21,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 22,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 23,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 24,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 25,
+      "attended": false
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 26,
+      "attended": false
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 27,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 28,
+      "attended": true
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 29,
+      "attended": false
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 30,
+      "attended": false
+    },
+    {
+      "user_course_id": 28,
+      "lecture_id": 31,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 33,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 34,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 35,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 36,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 37,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 38,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 39,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 40,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 41,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 42,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 43,
+      "attended": false
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 44,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 45,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 46,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 47,
+      "attended": true
+    },
+    {
+      "user_course_id": 29,
+      "lecture_id": 48,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 49,
+      "attended": false
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 50,
+      "attended": false
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 51,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 52,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 53,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 54,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 55,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 56,
+      "attended": false
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 57,
+      "attended": false
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 58,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 59,
+      "attended": false
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 60,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 61,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 62,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 63,
+      "attended": true
+    },
+    {
+      "user_course_id": 30,
+      "lecture_id": 64,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 65,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 66,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 67,
+      "attended": true
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 68,
+      "attended": true
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 69,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 70,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 71,
+      "attended": true
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 72,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 73,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 74,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 75,
+      "attended": true
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 76,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 77,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 78,
+      "attended": false
+    },
+    {
+      "user_course_id": 31,
+      "lecture_id": 79,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 81,
+      "attended": true
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 82,
+      "attended": true
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 83,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 84,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 85,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 86,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 87,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 88,
+      "attended": true
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 89,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 90,
+      "attended": true
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 91,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 92,
+      "attended": true
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 93,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 94,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 95,
+      "attended": false
+    },
+    {
+      "user_course_id": 32,
+      "lecture_id": 96,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 1,
+      "attended": false
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 2,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 3,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 4,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 5,
+      "attended": false
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 6,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 7,
+      "attended": false
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 8,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 9,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 10,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 11,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 12,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 13,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 14,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 15,
+      "attended": true
+    },
+    {
+      "user_course_id": 33,
+      "lecture_id": 16,
+      "attended": false
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 33,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 34,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 35,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 36,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 37,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 38,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 39,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 40,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 41,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 42,
+      "attended": false
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 43,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 44,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 45,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 46,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 47,
+      "attended": true
+    },
+    {
+      "user_course_id": 34,
+      "lecture_id": 48,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 49,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 50,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 51,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 52,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 53,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 54,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 55,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 56,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 57,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 58,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 59,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 60,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 61,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 62,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 63,
+      "attended": true
+    },
+    {
+      "user_course_id": 35,
+      "lecture_id": 64,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 1,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 2,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 3,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 4,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 5,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 6,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 7,
+      "attended": false
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 8,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 9,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 10,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 11,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 12,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 13,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 14,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 15,
+      "attended": true
+    },
+    {
+      "user_course_id": 39,
+      "lecture_id": 16,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 17,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 18,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 19,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 20,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 21,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 22,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 23,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 24,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 25,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 26,
+      "attended": false
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 27,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 28,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 29,
+      "attended": true
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 30,
+      "attended": false
+    },
+    {
+      "user_course_id": 40,
+      "lecture_id": 31,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 33,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 34,
+      "attended": false
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 35,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 36,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 37,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 38,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 39,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 40,
+      "attended": false
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 41,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 42,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 43,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 44,
+      "attended": false
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 45,
+      "attended": false
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 46,
+      "attended": true
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 47,
+      "attended": false
+    },
+    {
+      "user_course_id": 41,
+      "lecture_id": 48,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 49,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 50,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 51,
+      "attended": false
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 52,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 53,
+      "attended": false
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 54,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 55,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 56,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 57,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 58,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 59,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 60,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 61,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 62,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 63,
+      "attended": true
+    },
+    {
+      "user_course_id": 42,
+      "lecture_id": 64,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 65,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 66,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 67,
+      "attended": false
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 68,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 69,
+      "attended": false
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 70,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 71,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 72,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 73,
+      "attended": false
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 74,
+      "attended": false
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 75,
+      "attended": false
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 76,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 77,
+      "attended": false
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 78,
+      "attended": true
+    },
+    {
+      "user_course_id": 43,
+      "lecture_id": 79,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 81,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 82,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 83,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 84,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 85,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 86,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 87,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 88,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 89,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 90,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 91,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 92,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 93,
+      "attended": false
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 94,
+      "attended": true
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 95,
+      "attended": false
+    },
+    {
+      "user_course_id": 44,
+      "lecture_id": 96,
+      "attended": true
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": 1,
+      "student_id": 1001,
+      "description": "Submit Data Structures assignment 3",
+      "severity": "medium",
+      "deadline": "2026-11-23T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 2,
+      "student_id": 1001,
+      "description": "Prepare Databases quiz",
+      "severity": "low",
+      "deadline": "2026-11-27T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 3,
+      "student_id": 1002,
+      "description": "Databases assignment 3",
+      "severity": "high",
+      "deadline": "2026-11-25T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 4,
+      "student_id": 1002,
+      "description": "Lab report draft",
+      "severity": "medium",
+      "deadline": "2026-11-16T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 5,
+      "student_id": 1003,
+      "description": "Data Structures assignment 3",
+      "severity": "high",
+      "deadline": "2026-11-22T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 6,
+      "student_id": 1003,
+      "description": "Databases project proposal",
+      "severity": "high",
+      "deadline": "2026-11-13T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 7,
+      "student_id": 1003,
+      "description": "Signals problem sheet",
+      "severity": "medium",
+      "deadline": "2026-11-15T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 8,
+      "student_id": 1004,
+      "description": "Data Structures assignment 3",
+      "severity": "high",
+      "deadline": "2026-11-21T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 9,
+      "student_id": 1004,
+      "description": "Databases project proposal",
+      "severity": "high",
+      "deadline": "2026-11-09T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 10,
+      "student_id": 1004,
+      "description": "Digital Logic lab report",
+      "severity": "high",
+      "deadline": "2026-11-12T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 11,
+      "student_id": 1004,
+      "description": "Signals problem sheet",
+      "severity": "medium",
+      "deadline": "2026-11-14T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 12,
+      "student_id": 1004,
+      "description": "Report outline",
+      "severity": "medium",
+      "deadline": "2026-11-16T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 13,
+      "student_id": 1006,
+      "description": "Data Structures assignment 3",
+      "severity": "medium",
+      "deadline": "2026-11-24T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 14,
+      "student_id": 1006,
+      "description": "Lab report",
+      "severity": "medium",
+      "deadline": "2026-11-15T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 15,
+      "student_id": 1006,
+      "description": "Signals problem sheet",
+      "severity": "medium",
+      "deadline": "2026-11-14T23:59:00",
+      "completed": false
+    },
+    {
+      "task_id": 16,
+      "student_id": 1006,
+      "description": "Databases quiz prep",
+      "severity": "low",
+      "deadline": "2026-11-17T23:59:00",
+      "completed": false
+    }
+  ],
+  "gpa_entries": [
+    {
+      "entry_id": 1,
+      "student_id": 1001,
+      "course_name": "Programming Fundamentals",
+      "credit_hours": 3,
+      "grade": "A"
+    },
+    {
+      "entry_id": 2,
+      "student_id": 1001,
+      "course_name": "Calculus 1",
+      "credit_hours": 3,
+      "grade": "A-"
+    },
+    {
+      "entry_id": 3,
+      "student_id": 1002,
+      "course_name": "Programming Fundamentals",
+      "credit_hours": 3,
+      "grade": "B-"
+    },
+    {
+      "entry_id": 4,
+      "student_id": 1002,
+      "course_name": "Calculus 1",
+      "credit_hours": 3,
+      "grade": "C+"
+    },
+    {
+      "entry_id": 5,
+      "student_id": 1003,
+      "course_name": "Programming Fundamentals",
+      "credit_hours": 3,
+      "grade": "C"
+    },
+    {
+      "entry_id": 6,
+      "student_id": 1003,
+      "course_name": "Calculus 1",
+      "credit_hours": 3,
+      "grade": "F"
+    },
+    {
+      "entry_id": 7,
+      "student_id": 1004,
+      "course_name": "Programming Fundamentals",
+      "credit_hours": 3,
+      "grade": "D"
+    },
+    {
+      "entry_id": 8,
+      "student_id": 1004,
+      "course_name": "Calculus 1",
+      "credit_hours": 3,
+      "grade": "F"
+    },
+    {
+      "entry_id": 9,
+      "student_id": 1006,
+      "course_name": "Programming Fundamentals",
+      "credit_hours": 3,
+      "grade": "B+"
+    },
+    {
+      "entry_id": 10,
+      "student_id": 1006,
+      "course_name": "Calculus 1",
+      "credit_hours": 3,
+      "grade": "B"
+    }
+  ],
+  "course_materials": [
+    {
+      "material_id": 1,
+      "course_id": 1,
+      "category": "lecture",
+      "title": "Scientific Thinking - lecture slides"
+    },
+    {
+      "material_id": 2,
+      "course_id": 1,
+      "category": "sheet",
+      "title": "Scientific Thinking - problem sheets"
+    },
+    {
+      "material_id": 3,
+      "course_id": 1,
+      "category": "exam",
+      "title": "Scientific Thinking - previous exams"
+    },
+    {
+      "material_id": 4,
+      "course_id": 2,
+      "category": "lecture",
+      "title": "Technical Report Writing - lecture slides"
+    },
+    {
+      "material_id": 5,
+      "course_id": 2,
+      "category": "sheet",
+      "title": "Technical Report Writing - problem sheets"
+    },
+    {
+      "material_id": 6,
+      "course_id": 2,
+      "category": "exam",
+      "title": "Technical Report Writing - previous exams"
+    },
+    {
+      "material_id": 7,
+      "course_id": 3,
+      "category": "lecture",
+      "title": "Data Structures - lecture slides"
+    },
+    {
+      "material_id": 8,
+      "course_id": 3,
+      "category": "sheet",
+      "title": "Data Structures - problem sheets"
+    },
+    {
+      "material_id": 9,
+      "course_id": 3,
+      "category": "exam",
+      "title": "Data Structures - previous exams"
+    },
+    {
+      "material_id": 10,
+      "course_id": 4,
+      "category": "lecture",
+      "title": "Databases - lecture slides"
+    },
+    {
+      "material_id": 11,
+      "course_id": 4,
+      "category": "sheet",
+      "title": "Databases - problem sheets"
+    },
+    {
+      "material_id": 12,
+      "course_id": 4,
+      "category": "exam",
+      "title": "Databases - previous exams"
+    },
+    {
+      "material_id": 13,
+      "course_id": 5,
+      "category": "lecture",
+      "title": "Digital Logic Design - lecture slides"
+    },
+    {
+      "material_id": 14,
+      "course_id": 5,
+      "category": "sheet",
+      "title": "Digital Logic Design - problem sheets"
+    },
+    {
+      "material_id": 15,
+      "course_id": 5,
+      "category": "exam",
+      "title": "Digital Logic Design - previous exams"
+    },
+    {
+      "material_id": 16,
+      "course_id": 6,
+      "category": "lecture",
+      "title": "Signals and Systems - lecture slides"
+    },
+    {
+      "material_id": 17,
+      "course_id": 6,
+      "category": "sheet",
+      "title": "Signals and Systems - problem sheets"
+    },
+    {
+      "material_id": 18,
+      "course_id": 6,
+      "category": "exam",
+      "title": "Signals and Systems - previous exams"
+    }
+  ],
+  "course_links": [
+    {
+      "link_id": 1,
+      "course_id": 1,
+      "title": "Scientific Thinking - video playlist",
+      "url": "https://example.com/scientific-thinking/1"
+    },
+    {
+      "link_id": 2,
+      "course_id": 1,
+      "title": "Scientific Thinking - practice exercises",
+      "url": "https://example.com/scientific-thinking/2"
+    },
+    {
+      "link_id": 3,
+      "course_id": 2,
+      "title": "Technical Report Writing - video playlist",
+      "url": "https://example.com/technical-report-writing/3"
+    },
+    {
+      "link_id": 4,
+      "course_id": 2,
+      "title": "Technical Report Writing - practice exercises",
+      "url": "https://example.com/technical-report-writing/4"
+    },
+    {
+      "link_id": 5,
+      "course_id": 3,
+      "title": "Data Structures - video playlist",
+      "url": "https://example.com/data-structures/5"
+    },
+    {
+      "link_id": 6,
+      "course_id": 3,
+      "title": "Data Structures - practice exercises",
+      "url": "https://example.com/data-structures/6"
+    },
+    {
+      "link_id": 7,
+      "course_id": 4,
+      "title": "Databases - video playlist",
+      "url": "https://example.com/databases/7"
+    },
+    {
+      "link_id": 8,
+      "course_id": 4,
+      "title": "Databases - practice exercises",
+      "url": "https://example.com/databases/8"
+    },
+    {
+      "link_id": 9,
+      "course_id": 5,
+      "title": "Digital Logic Design - video playlist",
+      "url": "https://example.com/digital-logic-design/9"
+    },
+    {
+      "link_id": 10,
+      "course_id": 5,
+      "title": "Digital Logic Design - practice exercises",
+      "url": "https://example.com/digital-logic-design/10"
+    },
+    {
+      "link_id": 11,
+      "course_id": 6,
+      "title": "Signals and Systems - video playlist",
+      "url": "https://example.com/signals-and-systems/11"
+    },
+    {
+      "link_id": 12,
+      "course_id": 6,
+      "title": "Signals and Systems - practice exercises",
+      "url": "https://example.com/signals-and-systems/12"
+    }
+  ]
+}
